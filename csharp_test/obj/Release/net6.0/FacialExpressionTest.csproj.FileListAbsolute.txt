@@ -1,0 +1,14 @@
+d:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Release\net6.0\FacialExpressionTest.exe
+d:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Release\net6.0\FacialExpressionTest.deps.json
+d:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Release\net6.0\FacialExpressionTest.runtimeconfig.json
+d:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Release\net6.0\FacialExpressionTest.dll
+d:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Release\net6.0\FacialExpressionTest.pdb
+d:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Release\net6.0\FacialExpressionTest.GeneratedMSBuildEditorConfig.editorconfig
+d:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Release\net6.0\FacialExpressionTest.AssemblyInfoInputs.cache
+d:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Release\net6.0\FacialExpressionTest.AssemblyInfo.cs
+d:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Release\net6.0\FacialExpressionTest.csproj.CoreCompileInputs.cache
+d:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Release\net6.0\FacialExpressionTest.dll
+d:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Release\net6.0\refint\FacialExpressionTest.dll
+d:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Release\net6.0\FacialExpressionTest.pdb
+d:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Release\net6.0\FacialExpressionTest.genruntimeconfig.cache
+d:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Release\net6.0\ref\FacialExpressionTest.dll

@@ -1,0 +1,14 @@
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\DiagnosticTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\DiagnosticTest.AssemblyInfoInputs.cache
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\DiagnosticTest.AssemblyInfo.cs
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\DiagnosticTest.csproj.CoreCompileInputs.cache
+D:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Debug\net6.0\DiagnosticTest.exe
+D:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Debug\net6.0\DiagnosticTest.deps.json
+D:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Debug\net6.0\DiagnosticTest.runtimeconfig.json
+D:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Debug\net6.0\DiagnosticTest.dll
+D:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Debug\net6.0\DiagnosticTest.pdb
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\DiagnosticTest.dll
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\refint\DiagnosticTest.dll
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\DiagnosticTest.pdb
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\DiagnosticTest.genruntimeconfig.cache
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\ref\DiagnosticTest.dll

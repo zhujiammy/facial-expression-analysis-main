@@ -1,0 +1,29 @@
+# 面部表情分析 C++ 项目配置文件
+# 所有路径都相对于项目根目录
+
+# 模型文件路径
+models_dir=../models
+onnx_model=model_emotion_pls30.onnx
+frontalization_model=model_frontalization.npy
+shape_predictor=shape_predictor_68_face_landmarks.dat
+joblib_model=model_emotion_pls=30_fullfeatures=False_py312.joblib
+
+# 测试图像路径
+test_images_dir=../data/images
+test_image_1=pleased.jpg
+test_image_2=happy.jpg
+test_image_3=sad.jpg
+
+# 输出设置
+output_dir=./results
+log_level=INFO
+
+# 模型参数
+feature_dimensions=1275
+pls_components=30
+full_features=false
+
+# 测试参数
+random_test_samples=10
+comparison_tolerance=1e-5
+max_image_size=1024

@@ -1,0 +1,6 @@
+{
+    "cmake.sourceDirectory": "D:/pythonpro/facial-expression-analysis-main/cpp_test",
+    "files.associations": {
+        "cmath": "cpp"
+    }
+}

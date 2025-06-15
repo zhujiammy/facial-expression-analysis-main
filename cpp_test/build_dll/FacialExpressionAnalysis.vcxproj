@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B918B487-6C22-333E-AAE2-7FBCC73B4BDD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <VcpkgEnabled>false</VcpkgEnabled>
+    <WindowsTargetPlatformVersion>10.0.22621.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>FacialExpressionAnalysis</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="do_not_import_user.props" Condition="exists('do_not_import_user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FacialExpressionAnalysis.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">FacialExpressionAnalysis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\bin\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FacialExpressionAnalysis.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">FacialExpressionAnalysis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">FacialExpressionAnalysis.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">FacialExpressionAnalysis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">FacialExpressionAnalysis.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">FacialExpressionAnalysis</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pythonpro\facial-expression-analysis-main\cpp_test\include;C:\onnxruntime\include;C:\Program Files (x86)\CNPY\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/opencv/build/include" /external:I "C:/vcpkg/installed/x64-windows/include" /utf-8 /utf-8 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;EBUG;DLIB_AVAILABLE;ONNX_AVAILABLE;CNPY_AVAILABLE;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;EBUG;DLIB_AVAILABLE;ONNX_AVAILABLE;CNPY_AVAILABLE;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pythonpro\facial-expression-analysis-main\cpp_test\include;C:\onnxruntime\include;C:\Program Files (x86)\CNPY\include;F:\opencv\build\include;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pythonpro\facial-expression-analysis-main\cpp_test\include;C:\onnxruntime\include;C:\Program Files (x86)\CNPY\include;F:\opencv\build\include;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/bin/FacialExpressionAnalysis.exe -installedDir C:/vcpkg/installed/x64-windows/debug/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/onnxruntime/lib/onnxruntime.dll D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110d.lib;C:\vcpkg\installed\x64-windows\debug\lib\dlib.lib;onnxruntime.lib;C:\Program Files (x86)\CNPY\lib\cnpy.lib;C:\vcpkg\installed\x64-windows\debug\lib\openblas.lib;C:\vcpkg\installed\x64-windows\debug\lib\lapack.lib;C:\vcpkg\installed\x64-windows\debug\lib\openblas.lib;C:\vcpkg\installed\x64-windows\debug\lib\lapack.lib;ws2_32.lib;winmm.lib;comctl32.lib;gdi32.lib;imm32.lib;C:\vcpkg\installed\x64-windows\debug\lib\libpng16d.lib;C:\vcpkg\installed\x64-windows\debug\lib\zlibd.lib;C:\vcpkg\installed\x64-windows\debug\lib\jpeg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/onnxruntime/lib;C:/onnxruntime/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/Debug/FacialExpressionAnalysis.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/bin/FacialExpressionAnalysis.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pythonpro\facial-expression-analysis-main\cpp_test\include;C:\onnxruntime\include;C:\Program Files (x86)\CNPY\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/opencv/build/include" /external:I "C:/vcpkg/installed/x64-windows/include" /utf-8 /utf-8 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLIB_AVAILABLE;ONNX_AVAILABLE;CNPY_AVAILABLE;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLIB_AVAILABLE;ONNX_AVAILABLE;CNPY_AVAILABLE;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pythonpro\facial-expression-analysis-main\cpp_test\include;C:\onnxruntime\include;C:\Program Files (x86)\CNPY\include;F:\opencv\build\include;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pythonpro\facial-expression-analysis-main\cpp_test\include;C:\onnxruntime\include;C:\Program Files (x86)\CNPY\include;F:\opencv\build\include;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/bin/FacialExpressionAnalysis.exe -installedDir C:/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/onnxruntime/lib/onnxruntime.dll D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/bin
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\vcpkg\installed\x64-windows\lib\dlib.lib;onnxruntime.lib;C:\Program Files (x86)\CNPY\lib\cnpy.lib;C:\vcpkg\installed\x64-windows\lib\openblas.lib;C:\vcpkg\installed\x64-windows\lib\lapack.lib;C:\vcpkg\installed\x64-windows\lib\openblas.lib;C:\vcpkg\installed\x64-windows\lib\lapack.lib;ws2_32.lib;winmm.lib;comctl32.lib;gdi32.lib;imm32.lib;C:\vcpkg\installed\x64-windows\lib\libpng16.lib;C:\vcpkg\installed\x64-windows\lib\zlib.lib;C:\vcpkg\installed\x64-windows\lib\jpeg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/onnxruntime/lib;C:/onnxruntime/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/Release/FacialExpressionAnalysis.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/bin/FacialExpressionAnalysis.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pythonpro\facial-expression-analysis-main\cpp_test\include;C:\onnxruntime\include;C:\Program Files (x86)\CNPY\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/opencv/build/include" /external:I "C:/vcpkg/installed/x64-windows/include" /utf-8 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLIB_AVAILABLE;ONNX_AVAILABLE;CNPY_AVAILABLE;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLIB_AVAILABLE;ONNX_AVAILABLE;CNPY_AVAILABLE;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pythonpro\facial-expression-analysis-main\cpp_test\include;C:\onnxruntime\include;C:\Program Files (x86)\CNPY\include;F:\opencv\build\include;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pythonpro\facial-expression-analysis-main\cpp_test\include;C:\onnxruntime\include;C:\Program Files (x86)\CNPY\include;F:\opencv\build\include;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/bin/MinSizeRel/FacialExpressionAnalysis.exe -installedDir C:/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/onnxruntime/lib/onnxruntime.dll D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/bin/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\vcpkg\installed\x64-windows\lib\dlib.lib;onnxruntime.lib;C:\Program Files (x86)\CNPY\lib\cnpy.lib;C:\vcpkg\installed\x64-windows\lib\openblas.lib;C:\vcpkg\installed\x64-windows\lib\lapack.lib;C:\vcpkg\installed\x64-windows\lib\openblas.lib;C:\vcpkg\installed\x64-windows\lib\lapack.lib;ws2_32.lib;winmm.lib;comctl32.lib;gdi32.lib;imm32.lib;C:\vcpkg\installed\x64-windows\lib\libpng16.lib;C:\vcpkg\installed\x64-windows\lib\zlib.lib;C:\vcpkg\installed\x64-windows\lib\jpeg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/onnxruntime/lib;C:/onnxruntime/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/MinSizeRel/FacialExpressionAnalysis.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/bin/MinSizeRel/FacialExpressionAnalysis.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\pythonpro\facial-expression-analysis-main\cpp_test\include;C:\onnxruntime\include;C:\Program Files (x86)\CNPY\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /external:I "F:/opencv/build/include" /external:I "C:/vcpkg/installed/x64-windows/include" /utf-8 /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <ExternalWarningLevel>TurnOffAllWarnings</ExternalWarningLevel>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp17</LanguageStandard>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLIB_AVAILABLE;ONNX_AVAILABLE;CNPY_AVAILABLE;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <ScanSourceForModuleDependencies>false</ScanSourceForModuleDependencies>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLIB_AVAILABLE;ONNX_AVAILABLE;CNPY_AVAILABLE;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\pythonpro\facial-expression-analysis-main\cpp_test\include;C:\onnxruntime\include;C:\Program Files (x86)\CNPY\include;F:\opencv\build\include;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\pythonpro\facial-expression-analysis-main\cpp_test\include;C:\onnxruntime\include;C:\Program Files (x86)\CNPY\include;F:\opencv\build\include;C:\vcpkg\installed\x64-windows\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message>	</Message>
+      <Command>setlocal
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/bin/RelWithDebInfo/FacialExpressionAnalysis.exe -installedDir C:/vcpkg/installed/x64-windows/bin -OutVariable out
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -E copy_if_different C:/onnxruntime/lib/onnxruntime.dll D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/bin/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;F:\opencv\build\x64\vc16\lib\opencv_world4110.lib;C:\vcpkg\installed\x64-windows\lib\dlib.lib;onnxruntime.lib;C:\Program Files (x86)\CNPY\lib\cnpy.lib;C:\vcpkg\installed\x64-windows\lib\openblas.lib;C:\vcpkg\installed\x64-windows\lib\lapack.lib;C:\vcpkg\installed\x64-windows\lib\openblas.lib;C:\vcpkg\installed\x64-windows\lib\lapack.lib;ws2_32.lib;winmm.lib;comctl32.lib;gdi32.lib;imm32.lib;C:\vcpkg\installed\x64-windows\lib\libpng16.lib;C:\vcpkg\installed\x64-windows\lib\zlib.lib;C:\vcpkg\installed\x64-windows\lib\jpeg.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/onnxruntime/lib;C:/onnxruntime/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/RelWithDebInfo/FacialExpressionAnalysis.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/bin/RelWithDebInfo/FacialExpressionAnalysis.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/pythonpro/facial-expression-analysis-main/cpp_test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pythonpro/facial-expression-analysis-main/cpp_test -BD:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll --check-stamp-file D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlib-debug.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlib-release.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlib.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlibConfig.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlibConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3Config.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3ConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3LibraryDepends-debug.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3LibraryDepends-release.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3LibraryDepends.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-config.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-targets-release.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-targets.cmake;C:\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeCCompiler.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeCXXCompiler.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeRCCompiler.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeSystem.cmake;D:\pythonpro\facial-expression-analysis-main\models\model_emotion_pls30.onnx;D:\pythonpro\facial-expression-analysis-main\models\model_frontalization.npy;D:\pythonpro\facial-expression-analysis-main\models\shape_predictor_68_face_landmarks.dat;F:\opencv\build\OpenCVConfig-version.cmake;F:\opencv\build\OpenCVConfig.cmake;F:\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;F:\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;F:\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;F:\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/pythonpro/facial-expression-analysis-main/cpp_test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pythonpro/facial-expression-analysis-main/cpp_test -BD:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll --check-stamp-file D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlib-debug.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlib-release.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlib.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlibConfig.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlibConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3Config.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3ConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3LibraryDepends-debug.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3LibraryDepends-release.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3LibraryDepends.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-config.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-targets-release.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-targets.cmake;C:\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeCCompiler.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeCXXCompiler.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeRCCompiler.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeSystem.cmake;D:\pythonpro\facial-expression-analysis-main\models\model_emotion_pls30.onnx;D:\pythonpro\facial-expression-analysis-main\models\model_frontalization.npy;D:\pythonpro\facial-expression-analysis-main\models\shape_predictor_68_face_landmarks.dat;F:\opencv\build\OpenCVConfig-version.cmake;F:\opencv\build\OpenCVConfig.cmake;F:\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;F:\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;F:\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;F:\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/pythonpro/facial-expression-analysis-main/cpp_test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pythonpro/facial-expression-analysis-main/cpp_test -BD:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll --check-stamp-file D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlib-debug.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlib-release.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlib.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlibConfig.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlibConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3Config.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3ConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3LibraryDepends-debug.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3LibraryDepends-release.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3LibraryDepends.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-config.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-targets-release.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-targets.cmake;C:\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeCCompiler.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeCXXCompiler.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeRCCompiler.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeSystem.cmake;D:\pythonpro\facial-expression-analysis-main\models\model_emotion_pls30.onnx;D:\pythonpro\facial-expression-analysis-main\models\model_frontalization.npy;D:\pythonpro\facial-expression-analysis-main\models\shape_predictor_68_face_landmarks.dat;F:\opencv\build\OpenCVConfig-version.cmake;F:\opencv\build\OpenCVConfig.cmake;F:\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;F:\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;F:\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;F:\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/pythonpro/facial-expression-analysis-main/cpp_test/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pythonpro/facial-expression-analysis-main/cpp_test -BD:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll --check-stamp-file D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeDependentOption.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeFindDependencyMacro.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Compiler\MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-Initialize.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.28\Modules\Platform\WindowsPaths.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlib-debug.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlib-release.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlib.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlibConfig.cmake;C:\vcpkg\installed\x64-windows\share\dlib\dlibConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3Config.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3ConfigVersion.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3LibraryDepends-debug.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3LibraryDepends-release.cmake;C:\vcpkg\installed\x64-windows\share\fftw3\FFTW3LibraryDepends.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-config.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-targets-debug.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-targets-release.cmake;C:\vcpkg\installed\x64-windows\share\unofficial-sqlite3\unofficial-sqlite3-targets.cmake;C:\vcpkg\scripts\buildsystems\vcpkg.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeCCompiler.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeCXXCompiler.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeRCCompiler.cmake;D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\3.28.5\CMakeSystem.cmake;D:\pythonpro\facial-expression-analysis-main\models\model_emotion_pls30.onnx;D:\pythonpro\facial-expression-analysis-main\models\model_frontalization.npy;D:\pythonpro\facial-expression-analysis-main\models\shape_predictor_68_face_landmarks.dat;F:\opencv\build\OpenCVConfig-version.cmake;F:\opencv\build\OpenCVConfig.cmake;F:\opencv\build\x64\vc16\lib\OpenCVConfig.cmake;F:\opencv\build\x64\vc16\lib\OpenCVModules-debug.cmake;F:\opencv\build\x64\vc16\lib\OpenCVModules-release.cmake;F:\opencv\build\x64\vc16\lib\OpenCVModules.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\src\emotion_analyzer.cpp" />
+    <ClCompile Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\src\facial_landmarks.cpp" />
+    <ClCompile Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\src\model_comparison.cpp" />
+    <ClCompile Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\src\utils.cpp" />
+    <ClCompile Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\src\main.cpp" />
+    <ClInclude Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\include\emotion_analyzer.h" />
+    <ClInclude Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\include\facial_landmarks.h" />
+    <ClInclude Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\include\model_comparison.h" />
+    <ClInclude Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\include\utils.h" />
+    <ClInclude Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\include\facial_expression_dll.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\build_dll\ZERO_CHECK.vcxproj">
+      <Project>{88AD759B-90B1-3C12-A866-4A74A7C09F96}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

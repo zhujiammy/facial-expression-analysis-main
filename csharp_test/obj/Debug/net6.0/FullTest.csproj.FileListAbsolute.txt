@@ -1,0 +1,15 @@
+D:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Debug\net6.0\FullTest.exe
+D:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Debug\net6.0\FullTest.deps.json
+D:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Debug\net6.0\FullTest.runtimeconfig.json
+D:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Debug\net6.0\FullTest.dll
+D:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Debug\net6.0\FullTest.pdb
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\FullTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\FullTest.AssemblyInfoInputs.cache
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\FullTest.AssemblyInfo.cs
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\FullTest.csproj.CoreCompileInputs.cache
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\FullTest.dll
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\refint\FullTest.dll
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\FullTest.pdb
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\FullTest.genruntimeconfig.cache
+D:\pythonpro\facial-expression-analysis-main\csharp_test\obj\Debug\net6.0\ref\FullTest.dll
+D:\pythonpro\facial-expression-analysis-main\csharp_test\bin\Debug\net6.0\FacialExpressionDLL.dll

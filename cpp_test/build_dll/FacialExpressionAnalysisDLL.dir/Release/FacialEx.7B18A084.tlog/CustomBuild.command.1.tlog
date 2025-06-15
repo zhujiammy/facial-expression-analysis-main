@@ -1,0 +1,10 @@
+^D:\PYTHONPRO\FACIAL-EXPRESSION-ANALYSIS-MAIN\CPP_TEST\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pythonpro/facial-expression-analysis-main/cpp_test -BD:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll --check-stamp-file D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,10 @@
+^D:\PYTHONPRO\FACIAL-EXPRESSION-ANALYSIS-MAIN\CPP_TEST\BUILD_DLL\CMAKEFILES\9DCA3F5530461E688BF8511C3D93A245\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/pythonpro/facial-expression-analysis-main/cpp_test -BD:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/FacialExpressionAnalysis.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "8EKv+mH6TBI=",
+  "success": true,
+  "projectFilePath": "D:\\pythonpro\\facial-expression-analysis-main\\csharp_test\\FullTest.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zhujiammy\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\zhujiammy\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\zhujiammy\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\zhujiammy\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.36\\microsoft.netcore.app.host.win-x64.6.0.36.nupkg.sha512"
+  ],
+  "logs": []
+}

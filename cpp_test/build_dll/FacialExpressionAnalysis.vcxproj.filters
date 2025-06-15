@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\src\emotion_analyzer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\src\facial_landmarks.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\src\model_comparison.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\src\utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\include\emotion_analyzer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\include\facial_landmarks.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\include\model_comparison.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\include\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\include\facial_expression_dll.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{F3856BE1-FEFD-3A06-862B-CBD174B92C6B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{440E0192-D6A0-3D07-AB0F-67AEFE86830E}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

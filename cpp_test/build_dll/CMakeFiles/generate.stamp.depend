@@ -1,0 +1,53 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCXXInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeCommonLanguageInclude.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeDependentOption.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeFindDependencyMacro.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeGenericSystem.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeInitializeConfigs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeLanguageInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeRCInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInformation.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/CMakeSystemSpecificInitialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/CMakeCommonCompilerMacros.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Compiler/MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-Initialize.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-C.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC-CXX.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows-MSVC.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/Windows.cmake
+C:/Program Files/CMake/share/cmake-3.28/Modules/Platform/WindowsPaths.cmake
+C:/vcpkg/installed/x64-windows/share/dlib/dlib-debug.cmake
+C:/vcpkg/installed/x64-windows/share/dlib/dlib-release.cmake
+C:/vcpkg/installed/x64-windows/share/dlib/dlib.cmake
+C:/vcpkg/installed/x64-windows/share/dlib/dlibConfig.cmake
+C:/vcpkg/installed/x64-windows/share/dlib/dlibConfigVersion.cmake
+C:/vcpkg/installed/x64-windows/share/fftw3/FFTW3Config.cmake
+C:/vcpkg/installed/x64-windows/share/fftw3/FFTW3ConfigVersion.cmake
+C:/vcpkg/installed/x64-windows/share/fftw3/FFTW3LibraryDepends-debug.cmake
+C:/vcpkg/installed/x64-windows/share/fftw3/FFTW3LibraryDepends-release.cmake
+C:/vcpkg/installed/x64-windows/share/fftw3/FFTW3LibraryDepends.cmake
+C:/vcpkg/installed/x64-windows/share/unofficial-sqlite3/unofficial-sqlite3-config.cmake
+C:/vcpkg/installed/x64-windows/share/unofficial-sqlite3/unofficial-sqlite3-targets-debug.cmake
+C:/vcpkg/installed/x64-windows/share/unofficial-sqlite3/unofficial-sqlite3-targets-release.cmake
+C:/vcpkg/installed/x64-windows/share/unofficial-sqlite3/unofficial-sqlite3-targets.cmake
+C:/vcpkg/scripts/buildsystems/vcpkg.cmake
+D:/pythonpro/facial-expression-analysis-main/cpp_test/CMakeLists.txt
+D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/CMakeFiles/3.28.5/CMakeCCompiler.cmake
+D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/CMakeFiles/3.28.5/CMakeCXXCompiler.cmake
+D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/CMakeFiles/3.28.5/CMakeRCCompiler.cmake
+D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/CMakeFiles/3.28.5/CMakeSystem.cmake
+D:/pythonpro/facial-expression-analysis-main/models/model_emotion_pls30.onnx
+D:/pythonpro/facial-expression-analysis-main/models/model_frontalization.npy
+D:/pythonpro/facial-expression-analysis-main/models/shape_predictor_68_face_landmarks.dat
+F:/opencv/build/OpenCVConfig-version.cmake
+F:/opencv/build/OpenCVConfig.cmake
+F:/opencv/build/x64/vc16/lib/OpenCVConfig.cmake
+F:/opencv/build/x64/vc16/lib/OpenCVModules-debug.cmake
+F:/opencv/build/x64/vc16/lib/OpenCVModules-release.cmake
+F:/opencv/build/x64/vc16/lib/OpenCVModules.cmake

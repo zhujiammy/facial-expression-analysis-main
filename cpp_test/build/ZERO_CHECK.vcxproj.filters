@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\pythonpro\facial-expression-analysis-main\cpp_test\build\CMakeFiles\32aa9221d6c978489cf9b786667839c2\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{92C8F911-6E87-3415-989B-BE4CD97E7D6F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

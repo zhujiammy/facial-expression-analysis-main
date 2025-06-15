@@ -1,0 +1,6 @@
+D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/CMakeFiles/FacialExpressionAnalysisDLL.dir
+D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/CMakeFiles/FacialExpressionAnalysis.dir
+D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/CMakeFiles/FacialExpressionAnalysisDLLDirectTest.dir
+D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/CMakeFiles/INSTALL.dir
+D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/CMakeFiles/ALL_BUILD.dir
+D:/pythonpro/facial-expression-analysis-main/cpp_test/build_dll/CMakeFiles/ZERO_CHECK.dir
